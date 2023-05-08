@@ -1,0 +1,25 @@
+.relative {
+  height: 80vh;
+}
+
+.carousel-root {
+  height: 100%;
+}
+
+.carousel .slide img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel .control-arrow {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .absolute {
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    width: 50%;
+  }
+}

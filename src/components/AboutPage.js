@@ -3,9 +3,9 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div className="bg-gray-900  mt-[1rem] p-10 rounded-t-xl">
-      <div className="max-w-7xl mx-auto py-16 sm:py-20 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-16 sm:mt-10 sm:py-20 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold underline text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl">
+          <h2 className="text-3xl font-extrabold underline text-gray-100 sm:text-4xl sm:mt-10 md:text-5xl lg:text-6xl">
             About Eastern Youths Forum
           </h2>
           <p className="mt-4 text-lg text-gray-500">

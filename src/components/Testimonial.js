@@ -45,7 +45,7 @@ function Testimonials() {
   return (
     <div className="bg-gray-600 py-8 px-4">
       <div className="max-w-screen-xl mx-auto">
-        <h2 className="text-center text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10 mb-6">
+        <h2 className="text-center text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 mb-6">
           What Our Members Say
         </h2>
         <div className="max-w-3xl mx-auto">

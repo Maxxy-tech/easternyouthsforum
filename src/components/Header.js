@@ -2,7 +2,9 @@ import { useState } from "react";
 import {Link} from 'react-router-dom'
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+const paymentLink = 'https://your-flutterwave-payment-link';
 
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -16,9 +18,12 @@ function Header() {
       </div>
       <div className="bg-[#f35906] rounded-xl w-32 h-10 px-7 pt-2 pr-3  uppercase shadow-xl hover:bg-[#1c1a1a] hover:text-[#2e2a2a] transition-colors duration-300 text-[#2a0b0b] font-bold py-2   ">
         {" "}
-        <button className="uppercase  font-bold shadow-2xl">Donate</button>
+        <div>
+          <a href={paymentLink} target='_blank' rel='noreferrer'>
+          <button className="uppercase  font-bold shadow-2xl">Donate</button></a></div>
       </div>
       <div className="block lg:hidden">
+        
         <button
           className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
           onClick={toggleMenu}

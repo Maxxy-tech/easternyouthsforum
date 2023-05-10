@@ -1,25 +1,55 @@
-.relative {
-  height: 80vh;
-}
-
-.carousel-root {
-  height: 100%;
-}
-
 .carousel .slide img {
-  height: 100vh;
-  object-fit: cover;
+  max-height: 600px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-.carousel .control-arrow {
-  display: none;
+.carousel .control-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
-@media (min-width: 640px) {
-  .absolute {
-    top: 50%;
-    left: 25%;
-    transform: translateY(-50%);
-    width: 50%;
+.carousel .control-dots .dot {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+  border: none;
+  width: 8px;
+  height: 8px;
+  margin: 0 8px;
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel {
+  
+   
+    width: 100%;
   }
-}
+  .content {
+    width: 80%;
+    max-width: 600px;
+  }
+  @media only screen and (min-width: 768px) {
+    .carousel {
+      width: 80%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .carousel {
+      width: 60%;
+    }
+    .content {
+      width: 50%;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    .carousel {
+      width: 50%;
+    }
+    
+  }

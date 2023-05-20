@@ -38,16 +38,13 @@ const Hero = () => {
               alt={image.alt}
               className="flex flex-auto  object-cover"
             />
-          </div>
+         
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center content">
+        <h1 className="text-4xl font-bold text-white bg-gray-800">{image.header}</h1>
+        <p className="mt-4 text-xl text-black">{image.post}</p>
+      </div> </div>
         ))}
       </Carousel>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center content">
-        <h1 className="text-4xl font-bold text-black">Welcome to my website</h1>
-        <p className="mt-4 text-xl text-black">
-          This is the hero section of my website. It's a carousel that displays
-          different images and captions.
-        </p>
-      </div>
     </div>
   );
 };

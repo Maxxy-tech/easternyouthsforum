@@ -23,9 +23,9 @@ function Form() {
   };
 
   return (
-    <form className="max-w-3xl mx-auto" onSubmit={handleSubmit}>
-      <div className="mb-4">
-        <label htmlFor="author" className="block text-gray-700 font-bold mb-2">
+    <form className="max-w-3xl mx-auto bg-[#3b3b3c]" onSubmit={handleSubmit}>
+      <div className=" p-10">
+        <label htmlFor="author" className="block text-gray-800 italic p-4 font-semibold text-[1.5rem] mb-2">
           Author
         </label>
         <input
@@ -33,11 +33,11 @@ function Form() {
           id="author"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-full py-2 px-3  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
-      <div className="mb-4">
-        <label htmlFor="content" className="block text-gray-700 font-bold mb-2">
+      <div className=" p-8">
+        <label htmlFor="content" className="block text-gray-800 italic text-[1.5rem] font-semibold mb-2">
           Content
         </label>
         <textarea
@@ -47,10 +47,10 @@ function Form() {
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center p-4 mb-8">
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="bg-[#020419ed] hover:bg-blue-700 text-gray-500 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         >
           Submit
         </button>

@@ -8,9 +8,14 @@ function Footer() {
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
             <h3 className="font-bold mb-2">Eastern Youths Forum</h3>
             <p className="text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              euismod, nulla a eleifend ultricies, nisi nibh lacinia lorem, at
-              euismod nulla nunc sit amet diam.
+              Thank you for visiting the Eastern Youths Forum website. Together,
+              we strive to empower and inspire young individuals across the
+              region. Our dedicated team works tirelessly to create
+              opportunities, foster leadership, and promote positive change.
+              Join us in our mission to build a brighter future for Eastern
+              youths. Together, we can make a lasting impact and create a world
+              where every young person has the chance to thrive. Connect with us
+              today and be a part of the Eastern Youths Forum movement.
             </p>
           </div>
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
@@ -23,12 +28,12 @@ function Footer() {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Phone: +1 (555) 123-4567
+                  Phone: +234 7031328477
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Address: 123 Main St, Anytown, USA
+                  Address: Onitsha Anambra State Nigeria
                 </a>
               </li>
             </ul>

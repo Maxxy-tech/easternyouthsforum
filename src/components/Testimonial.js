@@ -31,14 +31,14 @@ function Testimonials() {
 
   return (
     <div className="bg-[#0b0a21] py-8 px-4 w-full">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 mb-6">
+      <div className="max-w-screen-xl p-10 mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-center p-4 underline text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 mb-6">
           Leave your comment
         </h2>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto p-4">
           <Slider {...settings}>
             {posts.map((post) => (
-              <div key={post.author} className="testimonial-card">
+              <div key={post.author} className="testimonial-card ">
                 <div className="bg-black rounded-lg shadow-lg p-6">
                   <p className="text-lg leading-7 font-medium text-gray-100 mb-4">
                     "{post.content}"

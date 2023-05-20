@@ -12,7 +12,7 @@ import Form from "./components/Form";
 
 const App = () => {
   return (
-    <div className="animate-fade-enter bg-gray-600">
+    <div className="animate-fade-enter bg-[#070202]">
       <Header />
       <Hero />
 
@@ -21,7 +21,7 @@ const App = () => {
       <Testimonial />
       <Form />
       <Volunteers />
-      <SignUp />
+      
 
       <Footer />
     </div>
